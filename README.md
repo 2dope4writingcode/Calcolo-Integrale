@@ -25,7 +25,7 @@ La successione $S_{n}$ è detta **successione delle somme parziali.**
 - Definizione
 
 Se la successione delle somme parziali $S_{n}$ converge a $l$,
-la serie numerica è **convergente** e la sua **somma** è $l$\_:
+la serie numerica è **convergente** e la sua **somma** è $l$\:
 
 $$
   \sum_{k=1}^{∞} a_{k} = l
@@ -42,21 +42,21 @@ $$
 - Definizione
 
 Se la successione delle somme parziali $S_{n}$ diverge a
-$+∞$, la serie numerica è **divergente** a $+∞$ e si scrive\_
+$+∞$, la serie numerica è **divergente** a $+∞$ e si scrive\,
 
 $$
   \sum_{k=1}^{∞} a_{k} = +∞
 $$
 
-Analogamente, se $S_{n} \to -∞, la serie diverge a -∞$.
+Analogamente, se $S_{n} \to -∞$, la serie diverge a $-∞$.
 
 ### Non convergente $\ne$ divergente
 
 - Se una serie è divergente, allora non è convergente; ma esistono
   serie non convergenti e non divergenti.
 
-**Esempio:** Sia $a_{k} = (-1)^{k}.$ la successione delle somme
-parziali è
+**Esempio:** Sia $a_{k} = (-1)^{k}$\, la successione delle somme
+parziali è\:
 
 $$
   S_{1} = -1\\
