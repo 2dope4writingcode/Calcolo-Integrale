@@ -63,7 +63,7 @@ Analogamente, se $S_{n} \to -∞$, la serie diverge a $-∞$.
 
 Convergenza della serie geometrica\:
 
-_La serie geometrica converge se e solo se $\mid x \mid$ < 1\._
+La serie geometrica converge se e solo se $\mid x \mid < 1$\.
 In tal caso\,
 
 $$
