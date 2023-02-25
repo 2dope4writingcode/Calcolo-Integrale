@@ -56,21 +56,16 @@ Analogamente, se $S_{n} \to -∞$, la serie diverge a $-∞$.
 - Se una serie è divergente, allora non è convergente; ma esistono
   serie non convergenti e non divergenti.
 
-Esempio: Sia $a_{k} = (-1)^{k}$\, la successione delle somme
-parziali è\:
+### Serie geometriche
+
+- Dato $x \in R$, la serie di termine $x^{k}$ viene detta
+  **serie geometrica (di ragione $x$)**
+
+Convergenza della serie geometrica\:
+
+_La serie geometrica converge se e solo se $\mid x \mid$ < 1\._
+In tal caso\,
 
 $$
-S_{1} = -1\\
-S_{2} = -1 + 1\\
-S_{3} = -1 + 1 -1 = -1\\
-
-S_{n} =
-\begin{cases}
--1 \quad n \ dispari,\\
-0 \quad n \ pari,\\
-\end{cases}
+  \sum_{k=0}^{∞} x^{k} = \frac{1}{1-x}
 $$
-
-Dato che $S_{n}$ non ammette nè limite finito, nè limite infinito,
-la serie $\sum_{k=1}^{∞} (-1)^{k}$ non è nè convergente,
-nè divergente.
