@@ -6,11 +6,11 @@
 
 - Data la successione di **termine generico** $a_{k}$,
 
-  $$
-  a_{1} + a_{2} + ... = \sum_{k=1}^{n} a_{k}
-  $$
+$$
+a_{1} + a_{2} + ... = \sum_{k=1}^{n} a_{k}
+$$
 
-- Data la serie di termine generico $a_{k}$,\
+- Data la serie di termine generico $a_{k}$\,
   si fissa _n_ naturale, si calcola la somma dei primi _n_ numeri
   della sequenza, si passa al limite per $n \to +∞$
   $$
@@ -59,14 +59,14 @@ Analogamente, se $S_{n} \to -∞$, la serie diverge a $-∞$.
 parziali è\:
 
 $$
-  S_{1} = -1\\
-  S_{2} = -1 + 1 = 0\\
-  S_{3} = -1 + 1 - 1 = -1\\
-  ...\\
-  S_{n} = \begin{cases}
-  -1\quad n\; dispari\\
-  0 \quad n\; pari
-  \end{cases}
+S_{1} = -1\\
+S_{2} = -1 + 1 = 0\\
+S_{3} = -1 + 1 - 1 = -1\\
+...\\
+S_{n} = \begin{cases}
+-1\quad n\; dispari\\
+0 \quad n\; pari
+\end{cases}
 $$
 
 Dato che $S_{n}$ non ammette nè limite finito, nè limite infinito,
