@@ -61,13 +61,13 @@ parziali è\:
 
 $$
 S_{1} = -1\\
-S_{2} = -1 + 1 = 0\\
-S_{3} = -1 + 1 - 1 = -1\\
-...\\
+S_{2} = -1 + 1\\
+S_{3} = -1 + 1 -1 = -1\\
+
 S_{n} =
 \begin{cases}
-  -1 \quad n\; dispari\\
-  0 \quad n\; pari\\
+-1 \quad n \ dispari,\\
+0 \quad n \ pari,\\
 \end{cases}
 $$
 
