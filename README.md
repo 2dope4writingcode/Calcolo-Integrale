@@ -150,7 +150,7 @@ La **Serie armonica generalizzata** è definita come\:
 
 $$
 \lim_{n \to +∞} S_{n} = \sum_{k=1}^{∞} \frac{1}{k^\alpha} = \begin{cases}
-  + ∞ & \text{se $\alpha \leq 1$} \\
+  +∞ & \text{se $\alpha \leq 1$} \\
   < + ∞ & \text{se $\alpha > 1$}
 \end{cases}
 $$
