@@ -90,8 +90,8 @@ Essa viene chiamata **successione armonica**. La serie finita di successione
 corrisponderà dunque a\:
 
 $$
-S_{n} = \sum_{k=1}^{n} \frac{1}{k} = 1 + \frac{1}{2} + \frac{1}{3} + ...
- + \frac{1}{n}
+S_{n} = \sum_{k=1}^{n} \frac{1}{k} = 1 + \frac{1}{2} + \frac{1}{3} + ...+
+\frac{1}{n}
 $$
 
 Andando a vedere per $S_{n+1}$ se la serie **converge** o **diverge**
@@ -105,11 +105,11 @@ e quindi la **serie armonica** per $n \to +∞$ è **divergente**.
 
 #### Serie armonica generalizzata
 
-- Una volta generalizzata la serie armonica sara\:
+- Una volta generalizzata la serie armonica sarà\:
 
 $$
-S_{n} = \sum_{k=1}^{n} \frac{1}{k^\alpha} = 1 + \frac{1}{2^\alpha}
-+ \frac{1}{3^\alpha} + ... + \frac{1}{n^\alpha}
+S_{n} = \sum_{k=1}^{n} \frac{1}{k^\alpha} = 1 + \frac{1}{2^\alpha} +
+\frac{1}{3^\alpha} + ... + \frac{1}{n^\alpha}
 $$
 
 Andando a vedere cosa accade in base al valore di $\alpha$\:
