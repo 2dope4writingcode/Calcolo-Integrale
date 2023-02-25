@@ -61,11 +61,19 @@ Analogamente, se $S_{n} \to -∞$, la serie diverge a $-∞$.
 - Dato $x \in R$, la serie di termine $x^{k}$ viene detta
   **serie geometrica (di ragione $x$)**
 
-Convergenza della serie geometrica\:
-
-La serie geometrica converge se e solo se $\mid x \mid < \ 1$\.
-In tal caso\,
+La **Serie geometrica** è definita come\:
 
 $$
-  \sum_{k=0}^{∞} x^{k} = \frac{1}{1-x}
+S_{n} = \sum_{k=0}^{n} q^{k} = \begin{cases}
+  \frac{1-q^{n+1}}{1-q} & \text{se $q \ne 1$}\\
+  n+1 & \text{se q = 1}
+\end{cases}
+$$
+
+$$
+\lim_{n \to +∞} S_{n} = \sum_{k=0}^{∞} q^{k} = \begin{cases}
+  \frac{1}{1-q} & \text{se $-1 < q < 1$} \\
+  +∞ & \text{se $q \geq 1$} \\
+  \nexists & \text{se $q \leq -1$}
+\end{cases}
 $$
