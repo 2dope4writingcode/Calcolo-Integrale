@@ -1,6 +1,6 @@
-# Appunti calcolo integrale
-
 # Serie numeriche
+
+[Serie convergenti](###Serie-convergenti)
 
 ## Definizione serie numerica
 
