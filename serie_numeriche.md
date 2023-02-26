@@ -1,7 +1,5 @@
 # Serie numeriche
 
-[Serie convergenti](###Serie-convergenti)
-
 ## Definizione serie numerica
 
 - Data la successione di **termine generico** $a_{k}$,
@@ -58,8 +56,8 @@ Analogamente, se $S_{n} \to -∞$, la serie diverge a $-∞$.
 
 ### Serie geometrica
 
-- Dato $x \in R$, la serie di termine $x^{k}$ viene detta
-  **serie geometrica (di ragione $x$)**
+- Dato $q \in R$, la serie di termine $q^{k}$ viene detta
+  **serie geometrica (di ragione $q$)**
 
 La **Serie geometrica** è definita come\:
 
@@ -128,7 +126,7 @@ $$
 $$
 
 e poichè la **serie armonica generalizzata** per $\alpha < 1$ è maggiore
-di una **serie divergente**, ne consegue che anch'essa sisa **divergente**
+di una **serie divergente**, ne consegue che anch'essa sia **divergente**
 
 - Se $\alpha > 1$\:
 
@@ -198,16 +196,16 @@ $$
 
 Siano $0 \leq a_{k} \leq b_{k}, \forall k \in N$\,
 
-- Se $S(b_{k})$ **converge**, allora anche $S(b_{k})$ **converge**\:
+- Se $S(b_{k})$ **converge**, allora anche $S(a_{k})$ **converge**\:
 
 $$
 \text{Se} \ \sum_{k=0} b_{k} < +∞ \implies \sum_{k=0} a_{k} < +∞
 $$
 
-- Se $S(b_{k})$ **diverge**, allora anche $S(b_{k})$ **diverge**\:
+- Se $S(a_{k})$ **diverge**, allora anche $S(b_{k})$ **diverge**\:
 
 $$
-\text{Se} \ \sum_{k=0} b_{k} = +∞ \implies \sum_{k=0} a_{k} = +∞
+\text{Se} \ \sum_{k=0} a_{k} = +∞ \implies \sum_{k=0} b_{k} = +∞
 $$
 
 ### Criterio del confronto asintotico
@@ -215,7 +213,7 @@ $$
 Siano $0 \leq a_{k}, b_{k}$ tali che\:
 
 $$
-\lim_{k} \to +∞ = \frac{a_{k}}{b_{k}} = 1
+\lim_{k \to +∞} \frac{a_{k}}{b_{k}} = 1
 $$
 
 allora\:
@@ -223,11 +221,11 @@ allora\:
 - $S(a_{k})$ converge **se e solo se** $S(b_{k})$ converge\:
 
 $$
-\sum_{k=0}^{∞} a_{k} < +∞ \iff \sum_{k=0}^{∞} < +∞
+\sum_{k=0}^{∞} a_{k} < +∞ \iff \sum_{k=0}^{∞} b_{k}< +∞
 $$
 
 - $S(a_{k})$ diverge **se e solo se** $S(b_{k})$ diverge\:
 
 $$
-\sum_{k=0}^{∞} a_{k} = ∞ \iff \sum_{k=0}^{∞} = ∞
+\sum_{k=0}^{∞} a_{k} = ∞ \iff \sum_{k=0}^{∞} b_{k}= ∞
 $$
