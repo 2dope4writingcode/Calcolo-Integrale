@@ -5,7 +5,7 @@
 - [Definizione serie numerica](#Definizione-serie-numerica)
 - [Serie convergenti](#Serie-convergenti)
 - [Serie divergenti](#Serie-divergenti)
-- [Serie non convergenti](#Non-convergente-$\ne$-divergente)
+- [Serie non convergenti](#Non-convergente-divergente)
 - [Serie geometrica](#Serie-geometrica)
 - [Serie armonica](#Serie-armonica)
 - [Serie armonica generalizzata](#Serie-armonica-generalizzata)
