@@ -1,5 +1,19 @@
 # Serie numeriche
 
+### Indice
+
+- [Definizione serie numerica](#Definizione-serie-numerica)
+- [Serie convergenti](#Serie-convergenti)
+- [Serie divergenti](#Serie-divergenti)
+- [Serie non convergenti](#Non-convergente-$\ne$-divergente)
+- [Serie geometrica](#Serie-geometrica)
+- [Serie armonica](#Serie-armonica)
+- [Serie armonica generalizzata](#Serie-armonica-generalizzata)
+- [Condizione necessaria](#Condizioni-necessarie-per-convergenza-di-una-serie)
+- [Serie a termini di segno costante](#Serie-a-termini-di-segno-costante)
+- [Criterio del confronto](#Criterio-del-confronto)
+- [Criterio del confronto asintotico](#Criterio-del-confronto-asintotico)
+
 ## Definizione serie numerica
 
 - Data la successione di **termine generico** $a_{k}$,
@@ -92,7 +106,7 @@ S_{n} = \sum_{k=1}^{n} \frac{1}{k} = 1 + \frac{1}{2} + \frac{1}{3} + ...+
 \frac{1}{n}
 $$
 
-Andando a vedere per $S_{n+1}$ se la serie **converge** o **diverge**
+Studiando per $S_{n+1}$ se la serie **converge** o **diverge**
 avremo che $\forall n$\:
 
 $$
@@ -110,7 +124,7 @@ S_{n} = \sum_{k=1}^{n} \frac{1}{k^\alpha} = 1 + \frac{1}{2^\alpha} +
 \frac{1}{3^\alpha} + ... + \frac{1}{n^\alpha}
 $$
 
-Andando a vedere cosa accade in base al valore di $\alpha$\:
+Studiando cosa accade in base al valore di $\alpha$\:
 
 - Se $\alpha < 1$\:
 
