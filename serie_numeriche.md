@@ -5,7 +5,7 @@
 - [Definizione serie numerica](#Definizione-serie-numerica)
 - [Serie convergenti](#Serie-convergenti)
 - [Serie divergenti](#Serie-divergenti)
-- [Serie non convergenti](#Non-convergente-divergente)
+- [Serie non convergenti](#Serie-non-convergenti)
 - [Serie geometrica](#Serie-geometrica)
 - [Serie armonica](#Serie-armonica)
 - [Serie armonica generalizzata](#Serie-armonica-generalizzata)
@@ -63,7 +63,7 @@ $$
 
 Analogamente, se $S_{n} \to -∞$, la serie diverge a $-∞$.
 
-### Non convergente $\ne$ divergente
+### Serie non convergenti
 
 - Se una serie è divergente, allora non è convergente; ma esistono
   serie non convergenti e non divergenti.
