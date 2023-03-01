@@ -13,6 +13,12 @@
 - [Serie a termini di segno costante](#Serie-a-termini-di-segno-costante)
 - [Criterio del confronto](#Criterio-del-confronto)
 - [Criterio del confronto asintotico](#Criterio-del-confronto-asintotico)
+- [Criterio del rapporto](#Criterio-del-rapporto)
+- [Criterio della radice](#Criterio-della-radice)
+- [Ordini di grandezza delle successioni](#Ordini-di-grandezza-delle-successioni)
+- [Formula di Stirling](#Formula-di-Stirling)
+- [Criterio di Leibniz](#Criterio-di-Leibniz)
+- [Convergenza assoluta](#Convergenza-assoluta)
 
 ## Definizione serie numerica
 
@@ -227,10 +233,10 @@ $$
 Siano $0 \leq a_{k}, b_{k}$ tali che\:
 
 $$
-\lim_{k \to +∞} \frac{a_{k}}{b_{k}} = 1
+\lim_{k \to +∞} \frac{a_{k}}{b_{k}} = l
 $$
 
-allora\:
+se $l \geq 1$ allora\:
 
 - $S(a_{k})$ converge **se e solo se** $S(b_{k})$ converge\:
 
@@ -242,4 +248,95 @@ $$
 
 $$
 \sum_{k=0}^{∞} a_{k} = ∞ \iff \sum_{k=0}^{∞} b_{k}= ∞
+$$
+
+### Criterio del rapporto
+
+Sia $a_{k} \geq 0$, se si verifica che \:
+
+$$
+\lim_{k \to +∞} \frac{a_{k+1}}{a_{k}} = l
+$$
+
+allora se\:
+
+- $0 \leq l < 1$ la serie **converge**
+- $l > 1$ la serie **diverge**
+- $l = 1$ **non sappiamo** se la serie converga o diverga
+
+Se la serie $a_{k}$ presenta un termine del tipo $k!$ allora conviene
+utilizzare questo criterio.
+
+### Criterio della radice
+
+Sia $a_{k} \geq 0$, se si verifica che \:
+
+$$
+\lim_{k \to +∞} \sqrt[k]{a_{k}} = l
+$$
+
+allora se\:
+
+- $0 \leq l < 1$ la serie **converge**
+- $l > 1$ la serie **diverge**
+- $l = 1$ **non sappiamo** se la serie converga o diverga
+
+Se la serie $a_{k}$ presenta un termine del tipo $x^{k}, \space x \in R$ allora conviene
+utilizzare questo criterio.
+
+### Ordini di grandezza delle successioni
+
+Per la risoluzione di alcuni limiti può essere utile ricordare gli
+**ordini di grandezza delle successioni**\:
+
+$$
+costante \prec \log^{k}(n) \prec \sqrt[b]{n} \prec n^{k} \prec A^{k}
+\prec k! \prec k^{k}
+$$
+
+### Formula di Stirling
+
+Per la risoluzione di alcune serie con il **Criterio della radice** è
+necessario ricodarsi l'esistenza di un **limite notevole** nel quale ci si
+imbatte spesso, ossia\:
+
+$$
+\lim_{k \to +∞} \sqrt[k]{k} = 1
+$$
+
+In alcuni casi però può risultare utile la **Formula di Stirling**,
+descrivente il comportamento asintotico delle seguenti funzioni\:
+
+$$
+\lim_{k \to +∞} \frac{k!}{k^{k} \space  \cdot e^{-k} \space \cdot
+\sqrt{2\pi k}}
+$$
+
+dunque per $k \to +∞$ si ha che\:
+
+$$
+k! \sim k^{k} \space \cdot e^{-k} \space \cdot \sqrt{2\pi k}
+$$
+
+### Criterio di Leibniz
+
+Sia $a_{k} = (-1)^{k} \cdot b_{k}$, se $b_{k}$ soddisfa le seguenti
+**tre condizioni**, allora la serie a termine generico $a_{k}$ è **convergente**\:
+
+$$
+\sum_{k = 0}^{+∞} (-1)^{k} \cdot b_{k} < +∞ \iff
+\begin{cases}
+  b_{k} \space \text{è una successione a termini di segno costante} \\
+  b_{k+1} \leq b_{k} \space \forall k, \text{ossia è decrescente} \\
+  b_{k} \to +∞ \space \text{per} \space n \to +∞
+\end{cases}
+$$
+
+### Convergenza assoluta
+
+La serie di termine generico $a_{k}$ si dice **convergente assolutamente**
+se e solo se la serie di termine generico $|a_{k}|$ è **convergente**
+
+$$
+\sum_{k = 0}^{∞} a_{k} < +∞ \iff \sum_{k=0}^{∞} |a_{k}| < +∞
 $$
