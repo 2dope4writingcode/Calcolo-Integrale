@@ -290,7 +290,7 @@ Per la risoluzione di alcuni limiti può essere utile ricordare gli
 **ordini di grandezza delle successioni**\:
 
 $$
-costante \prec \log^{k}(n) \prec \sqrt[b]{n} \prec n^{k} \prec A^{k}
+c \prec \log^{k}(n) \prec \sqrt[b]{n} \prec n^{k} \prec A^{k}
 \prec k! \prec k^{k}
 $$
 
@@ -324,13 +324,14 @@ Sia $a_{k} = (-1)^{k} \cdot b_{k}$, se $b_{k}$ soddisfa le seguenti
 **tre condizioni**, allora la serie a termine generico $a_{k}$ è **convergente**\:
 
 $$
-\sum_{k = 0}^{+∞} (-1)^{k} \cdot b_{k} < +∞ \iff
-\begin{cases}
-  b_{k} \geq 0 \\
-  b_{k+1} \leq b_{k} \space \forall k \\
-  b_{k} \to +∞ \space \text{per} \space n \to +∞
-\end{cases}
+\sum_{k = 0}^{+∞} (-1)^{k} \cdot b_{k} < +∞
 $$
+
+Se e solo se\:
+
+- $b_{k} \geq 0$
+- $b_{k+1} \leq b_{k} \space \forall k$
+- $b_{k} \to +∞ \space \text{per} \space n \to +∞$
 
 ### Convergenza assoluta
 
