@@ -1,9 +1,8 @@
 # Appunti Calcolo Integrale
 
-Appunti del corso "Calcolo integrale" - 6 CFU\
-Facoltà d'Informatica (La Sapienza di Roma) \
-Prof. Luigi Orsina
+Appunti del corso "Calcolo Integrale" -
+Facoltà d'Informatica (La Sapienza di Roma)
 
-## Primo esonero:
+#### Argomenti trattati:
 
 - [Serie numeriche](serie_numeriche.md)
