@@ -326,8 +326,8 @@ Sia $a_{k} = (-1)^{k} \cdot b_{k}$, se $b_{k}$ soddisfa le seguenti
 $$
 \sum_{k = 0}^{+∞} (-1)^{k} \cdot b_{k} < +∞ \iff
 \begin{cases}
-  b_{k} \space \text{è una successione a termini di segno costante} \\
-  b_{k+1} \leq b_{k} \space \forall k, \text{ossia è decrescente} \\
+  b_{k} \geq 0 \\
+  b_{k+1} \leq b_{k} \space \forall k \\
   b_{k} \to +∞ \space \text{per} \space n \to +∞
 \end{cases}
 $$
