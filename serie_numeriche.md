@@ -331,7 +331,7 @@ Se e solo se\:
 
 - $b_{k} \geq 0$
 - $b_{k+1} \leq b_{k} \space \forall k$
-- $b_{k} \to +∞ \space \text{per} \space n \to +∞$
+- $b_{k} \to 0 \space \text{per} \space n \to +∞$
 
 ### Convergenza assoluta
 
