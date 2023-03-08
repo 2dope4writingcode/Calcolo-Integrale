@@ -19,7 +19,9 @@
 - [Formula di Stirling](#Formula-di-Stirling)
 - [Criterio di Leibniz](#Criterio-di-Leibniz)
 - [Convergenza assoluta](#Convergenza-assoluta)
-
+- [Serie di Taylor](#Serie-di-Taylor)
+- [Serie di Taylor Notevoli](#Serie-di-Taylor-Notevoli)
+ 
 ## Definizione serie numerica
 
 - Data la successione di **termine generico** $a_{k}$,
@@ -341,3 +343,30 @@ se e solo se la serie di termine generico $|a_{k}|$ è **convergente**
 $$
 \sum_{k = 0}^{∞} a_{k} < +∞ \iff \sum_{k=0}^{∞} |a_{k}| < +∞
 $$
+
+### Serie di Taylor
+
+Sia $f: [a,b] \to R \space$ e sia $x_{0} \in (a,b). \space$ Si definisce Serie di Taylor il **Polinomio di Taylor** $T(x;x_{0} \space)$ **di ordine** $n$ **per** $n \to +∞ \space$ che coincide esattamente con il valore di $f(x_{0})$\:
+
+$$
+f(x_{0}) = \sum_{k=0}^{∞} \frac{f^{(k)} (x_{0})}{k!} (x - x_{0})^{k}
+$$
+
+### Serie di Taylor Notevoli
+
+- Serie di Taylor di $f(x) = e^{x}$, $\forall x \in R$
+$$
+e^{x} = \sum_{k=0}^{∞} \frac{x^{k}}{k!}
+$$
+
+- Serie di Taylor di $f(x) = cos(x)$, $\forall x \in R$
+$$
+cos(x) = \sum_{k=0}^{∞} \frac{(-1)^{k} x^{2k}}{(2k)!}
+$$
+
+- Serie di Taylor di $f(x) = sin(x)$, $\forall x \in R$
+$$
+cos(x) = \sum_{k=0}^{∞} \frac{(-1)^{k} x^{2k + 1}}{(2k + 1)!}
+$$
+
+
