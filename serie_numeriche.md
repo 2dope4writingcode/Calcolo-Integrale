@@ -355,16 +355,19 @@ $$
 ### Serie di Taylor Notevoli
 
 - Serie di Taylor di $f(x) = e^{x}$, $\forall x \in R$
+
 $$
 e^{x} = \sum_{k=0}^{∞} \frac{x^{k}}{k!}
 $$
 
 - Serie di Taylor di $f(x) = cos(x)$, $\forall x \in R$
+
 $$
 cos(x) = \sum_{k=0}^{∞} \frac{(-1)^{k} x^{2k}}{(2k)!}
 $$
 
 - Serie di Taylor di $f(x) = sin(x)$, $\forall x \in R$
+
 $$
 cos(x) = \sum_{k=0}^{∞} \frac{(-1)^{k} x^{2k + 1}}{(2k + 1)!}
 $$
