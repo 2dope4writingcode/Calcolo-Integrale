@@ -21,6 +21,7 @@
 - [Convergenza assoluta](#Convergenza-assoluta)
 - [Serie di Taylor](#Serie-di-Taylor)
 - [Serie di Taylor Notevoli](#Serie-di-Taylor-Notevoli)
+- [Valore della derivata di una Serie di Taylor](#Valore-della-derivata-di-una-Serie-di-Taylor)
  
 ## Definizione serie numerica
 
@@ -370,6 +371,56 @@ $$
 
 $$
 sin(x) = \sum_{k=0}^{∞} \frac{(-1)^{k} x^{2k + 1}}{(2k + 1)!}
+$$
+
+- Serie di Taylor di $f(x) = \frac{1}{1-x}$, $\forall x \in (-1,1)$
+
+$$
+\frac{1}{1-x} = \sum_{k=0}^{∞} x^{k}
+$$
+
+- Serie di Taylor di $f(x) = \frac{1}{1+x}$, $\forall x \in (-1,1)$
+
+$$
+\frac{1}{1+x} = \sum_{k=0}^{∞} (-1)^{k}x^{k}
+$$
+
+- Serie di Taylor di $f(x) = \frac{1}{1+x^{2}}$, $\forall x \in (-1,1)$
+
+$$
+\frac{1}{1+x^{2}} = \sum_{k=0}^{∞} (-1)^{k}x^{2k}
+$$
+
+- Serie di Taylor di $f(x) = log(1+x)$, $\forall x \in (-1,1)$
+
+$$
+log(1+x) = \sum_{k=0}^{∞} \frac{(-1)^{k}}{k+1} x^{k+1}
+$$
+
+- Serie di Taylor di $f(x) = arctan{(x)}$, $\forall x \in (-1,1)$
+
+$$
+arctan{x} = \sum_{k=0}^{∞} \frac{(-1)^{k}}{2k+1} x^{2k+1}
+$$
+
+### Valore della derivata di una Serie di Taylor
+
+Conoscendo la Serie di Taylor notevole è possibile trovare il valore esatto
+della derivata k-esima in $x_{0}$:
+
+$$
+f^{(k)}(x_{0}) = k! \cdot a_{k}
+$$
+
+Esempio:
+
+$$
+x^2 cos(3x^3) = \sum_{k=0}^{+∞} \frac{(-1)^{k}3^{2k}}{(2k)!} x^{6k+2} \\
+$$
+
+$$
+f^{14}(0) = \space ? \implies 14! \cdot a_{14} \implies \frac{14!(-1)^2 3^{4}}{4!} \\
+= 14! \cdot \frac{81}{24} = 14! \cdot \frac{27}{8}
 $$
 
 
