@@ -415,11 +415,15 @@ $$
 Esempio:
 
 $$
-x^2 cos(3x^3) = \sum_{k=0}^{+∞} \frac{(-1)^{k}3^{2k}}{(2k)!} x^{6k+2} \\
+x^2 cos(3x^3) = \sum_{k=0}^{+∞} \frac{(-1)^{k}3^{2k}}{(2k)!} x^{6k+2}\\
 $$
 
 $$
-f^{14}(0) = \space ? \implies 14! \cdot a_{14} \implies \frac{14!(-1)^2 3^{4}}{4!} \\
+f^{14}(0) = \space ? \implies 14! \cdot a_{14} 
+$$
+
+$$
+= \frac{14!(-1)^2 3^{4}}{4!} \\
 = 14! \cdot \frac{81}{24} = 14! \cdot \frac{27}{8}
 $$
 
