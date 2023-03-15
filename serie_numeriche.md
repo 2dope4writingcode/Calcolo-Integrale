@@ -495,11 +495,10 @@ $$
 allora possiamo dire che:
 
 - $f$ è derivabile **infinite volte**
-- La derivata j-esima di $f$ equivale a:
+- Per esempio la derivata prima di $f$ equivale a:
 
 $$
-f^{(j)}(x) = \sum_{k=j}^{+\infty} k \cdot (k-1) \cdot ... \cdot
-(k-j+1) \cdot a_{k}(x-x_{0})^{k-j}
+f'(x) = \sum_{k=1}^{+\infty} k \cdot a_{k} (x-x_{0})^{k-1}
 $$
 
 Inoltre per trovare il valore esatto della derivata j-esima come per
