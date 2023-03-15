@@ -505,4 +505,7 @@ Inoltre per trovare il valore esatto della derivata k-esima come per
 le Serie di Taylor vale la seguente:
 
 $$
-f^{k}(x_{0}) = k! \cdot a_{k} prima
+f^{k}(x_{0}) = k! \cdot a_{k} 
+$$
+
+
