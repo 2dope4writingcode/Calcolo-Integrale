@@ -508,4 +508,4 @@ $$
 f^{k}(x_{0}) = k! \cdot a_{k} 
 $$
 
-
+[Torna su](#Indice)
