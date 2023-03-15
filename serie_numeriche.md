@@ -501,11 +501,8 @@ $$
 f'(x) = \sum_{k=1}^{+\infty} k \cdot a_{k} (x-x_{0})^{k-1}
 $$
 
-Inoltre per trovare il valore esatto della derivata j-esima come per
+Inoltre per trovare il valore esatto della derivata k-esima come per
 le Serie di Taylor vale la seguente:
 
 $$
-f^{k}(x_{0}) = k! \cdot a_{k} 
-$$
-
-
+f^{k}(x_{0}) = k! \cdot a_{k} prima
