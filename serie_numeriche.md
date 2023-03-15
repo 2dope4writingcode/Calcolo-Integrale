@@ -444,7 +444,7 @@ con $a_{k}$ la serie dei coefficienti e $x_{0}$ il centro della serie.
 Chiamato $R$ raggio di convergenza esso è definito come:
 
 $$
-E = \{x \in R: \text{la serie converge}\}:
+E = \\{x \in R: \text{la serie converge}\\}:
 $$
 
 - $x_{0} \in E$ e vale $a_{0}$
