@@ -478,9 +478,9 @@ tale che:
 
 $$
 R = \begin{cases}
-+∞ & \text{se \space $L = 0$} \\
-\frac{1}{L} & \text{se \space $L \in (0, +\infty)$} \\
-0 & \text{se \space $L = +\infty$}
++∞ & \text{se $\space L = 0$} \\
+\frac{1}{L} & \text{se $\space L \in (0, +\infty)$} \\
+0 & \text{se $\space L = +\infty$}
 \end{cases}
 $$
 
