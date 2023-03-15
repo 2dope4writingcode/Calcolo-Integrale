@@ -22,7 +22,8 @@
 - [Serie di Taylor](#Serie-di-Taylor)
 - [Serie di Taylor Notevoli](#Serie-di-Taylor-Notevoli)
 - [Valore della derivata di una Serie di Taylor](#Valore-della-derivata-di-una-Serie-di-Taylor)
- 
+- [Serie di Potenze](#Serie-di-Potenze)
+
 ## Definizione serie numerica
 
 - Data la successione di **termine generico** $a_{k}$,
@@ -400,7 +401,7 @@ $$
 - Serie di Taylor di $f(x) = arctan{(x)}$, $\forall x \in (-1,1)$
 
 $$
-arctan{x} = \sum_{k=0}^{∞} \frac{(-1)^{k}}{2k+1} x^{2k+1}
+arctan{(x)} = \sum_{k=0}^{∞} \frac{(-1)^{k}}{2k+1} x^{2k+1}
 $$
 
 ### Valore della derivata di una Serie di Taylor
@@ -425,6 +426,87 @@ $$
 $$
 = \frac{14!(-1)^2 3^{4}}{4!} \\
 = 14! \cdot \frac{81}{24} = 14! \cdot \frac{27}{8}
+$$
+
+### Serie di Potenze
+
+Siano ${a_{k}} \subseteq R$ e $x_{0} \in R$ la serie di potenze è
+definita nel seguente modo:
+
+$$
+\sum_{k=0}^{+∞} a_{k} \cdot (x-x_{0})^{k}
+$$
+
+con $a_{k}$ la serie dei coefficienti e $x_{0}$ il centro della serie.
+
+#### Insieme di convergenza delle Serie di Potenze
+
+Chiamato $R$ raggio di convergenza esso è definito come:
+
+$$
+E = \{x \in R: \text{la serie converge}\}:
+$$
+
+- $x_{0} \in E$ e vale $a_{0}$
+- $\exists!R \in (0, +∞)$ tale che $S_{a_{k}}$:
+
+**converge** se:
+
+$$
+|x-x_{0}| < R
+$$
+
+**non converge** (diverge o è indeterminata) se:
+
+$$
+|x-x_{0}| > R
+$$
+
+La convergenza della serie è **ignota** se $|x-x_{0}| = R$ e dunque è
+necessario analizzarla separatamente.
+
+#### Calcolo del raggio di convergenza
+
+Sia $P$ una serie di potenze. Esiste un valore $L$ equivalente a:
+
+$$
+L = \lim_{k\to+∞} \left|\frac{a_{k+1}}{a_{k}}\right| = 
+\lim_{k\to+∞} \sqrt[k]{|a_{k}|}
+$$
+
+tale che:
+
+$$
+R = \begin{cases}
++∞ & \text{se \space $L = 0$} \\
+\frac{1}{L} & \text{se \space $L \in (0, +\infty)$} \\
+0 & \text{se \space $L = +\infty$}
+\end{cases}
+$$
+
+#### Derivazione di una Serie di Potenze
+
+Sia $f(x)$ una funzione tale che $\forall x \in |x - x_{0}| < R$ vale:
+
+$$
+f(x) = \sum_{k=0}^{+∞} a_{k} \cdot (x-x_{0})^{k}
+$$
+
+allora possiamo dire che:
+
+- $f$ è derivabile **infinite volte**
+- La derivata j-esima di $f$ equivale a:
+
+$$
+f^{(j)}(x) = \sum_{k=j}^{+\infty} k \cdot (k-1) \cdot ... \cdot
+(k-j+1) \cdot a_{k}(x-x_{0})^{k-j}
+$$
+
+Inoltre per trovare il valore esatto della derivata j-esima come per
+le Serie di Taylor vale la seguente:
+
+$$
+f^{k}(x_{0}) = k! \cdot a_{k} 
 $$
 
 
