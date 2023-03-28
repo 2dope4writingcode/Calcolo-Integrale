@@ -19,7 +19,7 @@ $$
 
 $$
 \lim_{n \to \infty} \frac{b-a}{2^{n}} \cdot \sum_{k=0}^{2^{n} - 1} 
-min_{[x_{k}, x_{k+1}]} f(x) = \overline{S} 
+max{[x_{k}, x_{k+1}]} f(x) = \overline{S} 
 $$
 
 **L'integrale definito** nell'intervallo $[a,b]$ di $f(x)$ viene
