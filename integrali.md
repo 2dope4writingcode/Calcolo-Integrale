@@ -26,6 +26,6 @@ $$
 denominato con:
 
 $$
-\int_{a}^{b} f(x) \, dx
+\int_{a}^{b} f(x) \space dx
 $$
 
