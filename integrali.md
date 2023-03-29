@@ -2,6 +2,10 @@
 
 ### Indice
 - [Integrazione secondo Riemann](#Integrazione-secondo-Riemann)
+- [Teorema Fondamentale Del Calcolo Integrale](#Teorema-Fondamentale-Del-Calcolo-Integrale)
+- [Funzioni primitive](#Funzioni-primitive)
+- [Integrale definito e indefinito](#Integrale-definito-e-indefinito)
+- [Derivate e Integrali immediati](#Derivate-e-Integrali-immediati)
 
 ### Integrazione secondo Riemann
 
