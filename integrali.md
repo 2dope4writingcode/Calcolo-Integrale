@@ -72,12 +72,11 @@ $$
 
 ### Derivate e Integrali immediati
 
-Di seguito una tabella che elenca le principali derivate immediate e i corrispondenti integrali immediati:
+Di seguito due tabelle che elencano le principali derivate immediate e i corrispondenti integrali immediati:
 
+<details closed>
+<summary>Derivate immediate</summary>
 <center>
-<table>
-<tr><th>Derivate immediate </th><th>Integrali immediati</th></tr>
-<tr><td>
 
 | $f(x)$ | $f'(x)$ | 
 | :----: | :----:  |
@@ -90,8 +89,12 @@ Di seguito una tabella che elenca le principali derivate immediate e i corrispon
 | $\alpha^{x}$ | $\alpha^{x}ln(\alpha)$ |
 | $ln\mid x\mid$ | $\frac{1}{x}$ |
 
-</td><td>
+</details>
+</center>
 
+<details closed>
+<summary>Integrali immediati</summary>
+<center>
 
 | $f(x)$ | $f'(x)$ | 
 | :----: | :----:  |
@@ -104,7 +107,7 @@ Di seguito una tabella che elenca le principali derivate immediate e i corrispon
 | $\alpha^{x}$ | $\frac{\alpha^{x}}{ln(\alpha)} + c$ |
 | $\frac{1}{x}$ | $ln\mid x \mid$ + c |
 
-</td></tr> </table>
+</details>
 </center>
 
 
