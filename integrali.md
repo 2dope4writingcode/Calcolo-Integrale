@@ -9,7 +9,7 @@
 - [Integrazione per sostituzione](#Integrazione-per-sostituzione)
 - [Integrazione per parti](#Integrazione-per-parti)
 - [Cosa integrare e cosa derivare?](#Cosa-integrare-e-cosa-derivare-?)
-
+- [Esercizi Svolti](EserciziIntegrali/template.pdf)
 ### Integrazione secondo Riemann
 
 Sia $f: [a,b] \to R$ positiva e limitata. Si dice che $f$ è integrabile
