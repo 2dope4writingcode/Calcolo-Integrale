@@ -161,7 +161,11 @@ Se il prodotto tra funzioni $f'(x) \cdot g(x)$ è integrabile, allora
 l'integrale si può risolvere cona la seguente formula:
 
 $$
-\int f'(x) \cdot g(x) = f(x) \cdot g(x) - \int f'(x) \cdot g'(x) \space dx
+\int f'(x) \cdot g(x) 
+$$
+
+$$
+= f(x) \cdot g(x) - \int f'(x) \cdot g'(x) \space dx
 $$
 
 Consideriamo il seguente integrale:
@@ -202,7 +206,11 @@ applicandola un'ultima volta avremo:
 - $g(x) = 6x \implies 6$
 
 $$
-\int x^3 e^x \space dx = x^3e^x - \Big[3x^2e^x - \Big(6xe^x - \int 6e^x
+\int x^3 e^x \space dx 
+$$
+
+$$
+= x^3e^x - \Big[3x^2e^x - \Big(6xe^x - \int 6e^x
 \space dx \Big) \Big] \\
 $$
 
