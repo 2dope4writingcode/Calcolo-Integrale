@@ -6,6 +6,9 @@
 - [Funzioni primitive](#Funzioni-primitive)
 - [Integrale definito e indefinito](#Integrale-definito-e-indefinito)
 - [Derivate e Integrali immediati](#Derivate-e-Integrali-immediati)
+- [Integrazione per sostituzione](#Integrazione-per-sostituzione)
+- [Integrazione per parti](#Integrazione-per-parti)
+- [Cosa integrare e cosa derivare?](#Cosa-integrare-e-cosa-derivare-?)
 
 ### Integrazione secondo Riemann
 
@@ -123,8 +126,17 @@ Successivamente anche la variabile d'integrazione dovrà essere modificata:
 
 $$
 y = 2x \\
+$$
+
+$$
 dy = [2x]' dx \\
+$$
+
+$$
 dy = 2 \space dx \\
+$$
+
+$$
 \frac{dy}{2} = dx
 $$
 
@@ -178,6 +190,9 @@ l'integrazione per parti all'integrale ottenuto:
 
 $$
 \int x^3 e^x \space dx= x^3 e^x - \int 3x^2 e^x \space dx \\
+$$
+
+$$
 = x^3 e^x - \Big[3x^2 e^x - \int 6x e^x \space dx \Big]
 $$
 
@@ -189,7 +204,13 @@ applicandola un'ultima volta avremo:
 $$
 \int x^3 e^x \space dx = x^3e^x - \Big[3x^2e^x - \Big(6xe^x - \int 6e^x
 \space dx \Big) \Big] \\
+$$
+
+$$
 = x^3e^x - 3x^2e^x + 6xe^x - 6e^x + c \\
+$$
+
+$$
 = e^x (x^3 - 3x^2 + 6x - 6) + c
 $$
 
