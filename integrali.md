@@ -224,7 +224,7 @@ $$
 e^{kx} \\
 cos(kx) \\
 sen(kx) 
-\end{cases} dx \\
+\end{cases} \space dx \\
 $$
 
 derivare $P(x)$ ed integrare $f(x)$.
@@ -233,7 +233,7 @@ $$
 \circ \space \int P(x) \cdot \begin{cases}
 ln(x) \\
 arctan(x)
-\end{cases} dx \\
+\end{cases} \space dx \\
 $$
 
 derivare $f(x)$ ed integrare $P(x)$.
@@ -242,12 +242,13 @@ $$
 \circ \space \int e^{hx}\cdot \begin{cases}
 cos(kx) \\
 sen(kx)
-\end{cases} dx
+\end{cases} \space dx
 $$
 
 integrare per parti 2 volte e poi portare e sinistra l'integrale che
 sta a destra dell'uguale.
 
+- [Torna su](#Indice)
 
 
 
