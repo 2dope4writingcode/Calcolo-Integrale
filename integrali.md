@@ -9,7 +9,9 @@
 - [Integrazione per sostituzione](#Integrazione-per-sostituzione)
 - [Integrazione per parti](#Integrazione-per-parti)
 - [Cosa integrare e cosa derivare?](#Cosa-integrare-e-cosa-derivare-?)
+- [Integrazione di funzioni razionali](#Integrazione-di-funzioni-razionali)
 - [Esercizi Svolti](EserciziIntegrali/template.pdf)
+
 ### Integrazione secondo Riemann
 
 Sia $f: [a,b] \to R$ positiva e limitata. Si dice che $f$ è integrabile
@@ -254,17 +256,121 @@ sen(kx)
 $$
 
 integrare per parti 2 volte e poi portare e sinistra l'integrale che
-sta a destra dell'uguale.
+sta a destra dell'uguale. \
+Infine per integrali del tipo:
 
-- [Torna su](#Indice)
+$$
+\circ \space \int \begin{cases}
+cos^k(x) \space dx \\
+sen^k(x) \space dx
+\end{cases}
+$$
 
+dove l'esponente $k$ può essere pari o dispari si procede nel seguente modo:
 
+- $k$ pari $→$ integrazione per parti
+- $k$ dispari $→$ integrazione per sostituzione
 
+### Integrazione di funzioni razionali
 
+Nei casi in cui viene richiesto di integrare il **rapporto tra due 
+polinomi**, della seguente forma:
 
+$$
+\int \frac{P(x)}{Q(x)} \space dx
+$$
 
+la risoluzione dipenderà da uno dei seguenti casi:
 
+- **Caso 1** $\rightarrow$ se il rapporto tra polinomi si trova nella seguente forma:
 
+$$
+\int \frac{B}{C(x) + D} \space dx
+$$
 
+la risoluzione avviene nel seguente modo:
 
+$$
+\int \frac{B}{C(x) + D} \space dx = \frac{B}{C} \cdot ln(|C(x) + D|)
+$$
+
+- **Caso 2** $\rightarrow$ se il rapporto tra polinomi si trova nella
+seguente forma:
+
+$$
+\int \frac{A(x) + B}{C(x) + D} \space dx
+$$
+
+con $A \neq 0$, è possibile procedere nel seguente modo:
+
+$$
+\frac{A(x) + B}{C(x) + D} = \frac{\frac{A}{C}(C(x) + B)}{C(x) + D}
+$$
+
+$$
+= \frac{\frac{A}{C}(C(x)+D-D) + B}{C(x) + D}
+$$
+
+scomponendo in due la frazione al numeratore:
+
+$$
+= \frac{\frac{A}{C}(C(x)+D) - \frac{A \cdot D}{C} + B}{C(x) + D}
+$$
+
+spezzando in due la frazione principale avremo:
+
+$$
+= \frac{\frac{A}{C}(C(x)+D)}{C(x) + D} + \frac{B - \frac{A \cdot D}{D}}
+{C(x) + D}
+$$
+
+infine semplificando i $C(x) + D$:
+
+$$
+\frac{A}{C} + \frac{BC - AD}{C \cdot (C(x) + D)}
+$$
+
+Questo poi dovrà essere integrato e dunque il risultato finale sarà:
+
+$$
+\int \frac{A(x) + B}{C(x) + D} \space dx
+$$
+
+$$
+= \frac{AC(x) + (BC - AD)
+\cdot ln(|C(x) + D|)}{C^2} + c
+$$
+
+- **Caso 3** $\rightarrow$ se il rapporto tra polinomi si trova nella seguente forma:
+
+$$
+\int \frac{1}{A(x)^2 + B(x) +C} \space dx
+$$
+
+per prima cosa sarà necessario ricondurlo alla seguente forma:
+
+$$
+\frac{1}{A} \int \frac{dx}{x^2 + \alpha(x) + \beta}
+$$
+
+dove $\alpha = B/A$ e $\beta = C/A$. Successivamente l'integrale dovrà
+essere sviluppato procedendo in base ad uno dei tre casi elencati:
+
+- **Caso 3-a** $\rightarrow$ Calcolando il **delta** del polinomio di secondo grado, se esso sarà uguale a 0 (**$\Delta = 0$**), allora sapendo che le radici sono uguali l'integrale può essere risolto nel seguente modo:
+
+$$
+\int \frac{1}{x^2 + \alpha(x) + \beta} = - \frac{1}{x - x_1} + c
+$$
+
+  - **Caso 3-b** $\rightarrow$ Se il **delta** è maggiore di 0 (**$\Delta > 0$**), allora le radici saranno diverse dunque l'integrale può essere risolto nel seguento modo:
+
+$$
+\int \frac{1}{x^2 + \alpha(x) + \beta}
+$$
+
+$$
+= \frac{1}{x_1 - x_2} \cdot ln(\Big|\frac{x -x_1}{x-x_2}\Big|) + c
+$$
+
+[Torna su](#Indice)
 
