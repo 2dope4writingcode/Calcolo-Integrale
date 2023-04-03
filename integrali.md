@@ -330,16 +330,7 @@ $$
 \frac{A}{C} + \frac{BC - AD}{C \cdot (C(x) + D)}
 $$
 
-Questo poi dovrà essere integrato e dunque il risultato finale sarà:
-
-$$
-\int \frac{A(x) + B}{C(x) + D} \space dx
-$$
-
-$$
-= \frac{AC(x) + (BC - AD)
-\cdot ln(|C(x) + D|)}{C^2} + c
-$$
+Il risultato finale sarà l'integrazione di ciò che abbiamo trovato sopra.
 
 - **Caso 3** $\rightarrow$ se il rapporto tra polinomi si trova nella seguente forma:
 
