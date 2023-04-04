@@ -167,7 +167,7 @@ $$
 $$
 
 $$
-= f(x) \cdot g(x) - \int f'(x) \cdot g'(x) \space dx
+= f(x) \cdot g(x) - \int f'(x) \cdot g(x) \space dx
 $$
 
 Consideriamo il seguente integrale:
@@ -361,6 +361,25 @@ $$
 
 $$
 = \frac{1}{x_1 - x_2} \cdot ln(\Big|\frac{x -x_1}{x-x_2}\Big|) + c
+$$
+
+- **Caso 3-c** $→$ Se il **delta** è minore di 0 (**$\Delta < 0$**), allora le radici saranno due numeri complessi diversi, dunque l'integrale potrà essere risolto nel seguente modo:
+
+$$
+\int \frac{1}{x^2 + \alpha(x) + \beta} \space dx
+$$
+
+$$ 
+= \frac{2}{\sqrt{- \Delta}} \cdot arctan \Big( \frac{2x + \beta}{sqrt{- \Delta}} \Big) + c
+$$
+
+- **Caso 4** $\rightarrow$ Se $P(x)$ è un polinomio di grado **maggiore di 2**, allora si dovrà effettura una divisione tra polinomi, così da abbassare il grado di $P(x)$ e poter rientrare in uno dei casi elencati precedentemente.
+
+Sapendo che $P(x) = S(x) \cdot Q(x) + R(x)$, dove $S(x)$ è il risultato 
+della divisione $\frac{P(x)}{Q(x)}$ e $R(x)$ il suo resto, allora l'integrale può essere risolto nel seguento modo:
+
+$$
+\int \frac{P(x)}{Q(x)} \space dx = \int S(x) \space dx + \int \frac{R(x)}{Q(x)} \space dx
 $$
 
 [Torna su](#Indice)
