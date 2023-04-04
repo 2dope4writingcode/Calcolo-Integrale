@@ -370,7 +370,7 @@ $$
 $$
 
 $$ 
-= \frac{2}{\sqrt{- \Delta}} \cdot arctan \Big( \frac{2x + \beta}{sqrt{- \Delta}} \Big) + c
+= \frac{2}{\sqrt{- \Delta}} \cdot arctan \Big( \frac{2x + \beta}{\sqrt{- \Delta}} \Big) + c
 $$
 
 - **Caso 4** $\rightarrow$ Se $P(x)$ è un polinomio di grado **maggiore di 2**, allora si dovrà effettura una divisione tra polinomi, così da abbassare il grado di $P(x)$ e poter rientrare in uno dei casi elencati precedentemente.
