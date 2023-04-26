@@ -601,16 +601,16 @@ Ne seguono due categorie:
 $$
 \lim_{\epsilon \to 0^+} \int\limits_{\epsilon}^{t} \frac{1}{x^\alpha}
 = \begin{cases}
-\frac{t^{1 - \alpha}}{1 - \alpha} && \text{se $\alpha < 1$}\\
-+ ∞ && \text{se $\alpha \geq 1$}
+\frac{t^{1 - \alpha}}{1 - \alpha} & \text{se $\alpha < 1$}\\
++ ∞ & \text{se $\alpha \geq 1$}
 \end{cases}
 $$
 
 $$
 \lim_{\epsilon \to 0^+} \int\limits_{t}^{\epsilon} \frac{1}{x^\alpha}
 = \begin{cases}
-\frac{t^{1 - \alpha}}{1 - \alpha} && \text{se $\alpha > 1$}\\
-+ ∞ && \text{se $\alpha \leq 1$}
+\frac{t^{1 - \alpha}}{1 - \alpha} & \text{se $\alpha > 1$}\\
++ ∞ & \text{se $\alpha \leq 1$}
 \end{cases}
 $$
 
