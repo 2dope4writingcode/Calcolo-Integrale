@@ -10,7 +10,10 @@
 - [Integrazione per parti](#Integrazione-per-parti)
 - [Cosa integrare e cosa derivare?](#Cosa-integrare-e-cosa-derivare-?)
 - [Integrazione di funzioni razionali](#Integrazione-di-funzioni-razionali)
-- [Esercizi Svolti](EserciziIntegrali/template.pdf)
+- [Studio di funzioni tramite integrali](#Studio-di-funzioni-tramite-integrali)
+- [Integrali impropri](#Integrali-impropri)
+- [Convergenza e divergenza di un integrale](#Convergenza-e-divergenza-di-un-integrale)
+- [Parallelismo con le serie armoniche generalizzate](#Parallelismo-con-le-serie-armoniche-generalizzate)
 
 ### Integrazione secondo Riemann
 
@@ -380,6 +383,222 @@ della divisione $\frac{P(x)}{Q(x)}$ e $R(x)$ il suo resto, allora l'integrale pu
 
 $$
 \int \frac{P(x)}{Q(x)} \space dx = \int S(x) \space dx + \int \frac{R(x)}{Q(x)} \space dx
+$$
+
+### Studio di funzioni tramite integrali
+
+In alcuni casi, quando non si riesce a trovare una primitiva di una funzione, possiamo comunque trarre delle conclusioni andando a studiare l'integrale senza dover risolverlo.
+
+#### Integrazioni di funzioni pari e dispari
+
+Se $F(x)$ è definita come:
+
+$$
+F(t) = \int\limits_0^t f(x) \space dt
+$$
+
+- Se $f(x)$ è una funzione pari, allora $F(t)$ è una funzione dispari.
+- Se $f(x)$ è una funzione dispari, allora $F(t)$ è una funzione pari.
+
+Se una funzione $f(x)$ è integrata in un intervallo $[-t, t]$, allora:
+
+- Se $f(x)$ è dispari:
+
+$$
+\int\limits_{-t}^{t} f(x) \space dx = 0
+$$
+
+- Se $f(x)$ è dispari:
+
+$$
+\int\limits_{-t}^{t} f(x) \space dx = 2 \int\limits_{0}^t f(x) \space dx
+$$
+
+#### Esempio di studio di funzione tramite integrale
+
+Prendiamo il seguente integrale:
+
+$$
+F(t) = \int\limits_0^t [x|x| + sen^3(x)] \space dx
+$$
+
+1. $F$ è ben definita?
+2. $F$ è derivabile?
+3. $F(0), \space F'(0), \space F''(0)$ = ?
+4. $F(1) > 0$ ?
+5. $F$ è pari?
+6. $F$ è crescente su $[0, + \infty)$ ?
+
+Queste sono tutte possibili domande di cui si può dare una risposta. Di seguito le soluzioni ad esse:
+
+1. Si perchè $f(x)$ è una funzione continua.
+2. Essendo $f(x)$ una funzione continua e limitata è anche derivabile per il Teorema Fondamentale del Calcolo Integrale, infatti sappiamo anche che:
+
+$$
+F'(t) = t|t| + sen^3(t), \space \forall t\in R
+$$
+
+3. - $F(0) = \int\limits_0^0 f(x) \space dx = 0$
+   - $F'(0) = 0 \cdot |0| + sen^3(0) = 0$
+   - $F''(0) = t \cdot (segno)t + 3sen^2(t) \cdot cos(t) \rightarrow t = 0 → 0$
+4. Andando a sostituire $t =1 \rightarrow$ $\int\limits_0^1 [x |x| + sen^3(x)] \space dx$, dunque sappiamo che:
+  
+$$
+\int\limits_0^1 [x |x| + sen^3(x)] \space dx = \int\limits_0^1 [x^2 + sen^3(x)] \space dx
+$$
+
+e quindi andando a studiare il segno delle due funzioni integrande:
+
+- $x^2 \geq 0$
+- $sen^3(x) \geq 0$
+
+possiamo concludere che l'integrale, avendo i limiti d'integrazione orientati nel verso giusto, è positivo.
+
+5. Possiamo ricondurci al teorema sull'integrazione delle funzioni pari o dispari in quanto l'integrale è su $[0, t]$, quindi:
+  
+$$
+f(x) = x|x| + sen^3(x)
+$$
+
+$$
+f(-x) = -x|-x| + sen^3(-x)
+$$
+
+$$
+= -x|x| + [-sen(x)]^3
+$$
+
+$$
+= -x|x| + sen^3(x) \rightarrow - f(x)
+$$
+
+dunque $f(x)$ è dispari e di conseguenza $F$ è pari.
+
+6. Utilizzando il Teorema Fondamentale Del Calcolo Integrale:
+
+$$
+F'(t) = t|t| + sen^3(t) \geq 0, \forall t \geq 0 \space ?
+$$
+
+$$
+t|t| + sen^3(t) \geq 0, \forall t \geq 0 \space ?
+$$
+
+sapendo che la funzione $sen(x)$ oscilla tra -1 ed 1:
+
+$$
+-1 \leq sen^3(t) \geq 1
+$$
+
+$$
+\rightarrow t^2 + sen^3(t) \geq t^2 - 1
+$$
+
+e sappiamo che $t \geq 1$ e che tra $[0, 1]$ $F \geq 0$, dunque $f(x) 
+\geq 0 \rightarrow$ tra $[0, +∞)$ $F$ è crescente.
+
+### Integrali impropri
+
+Per alcuni tipi di integrali le cui funzione integrande hanno la presenza di alcuni punti di discontinuità, ossia non sono limitate e continue, non possiamo risolverli secondo Riemann. Tuttavia, possiamo andare a studiare il comportamento di una funzione se ci avviciniamo al punto problematico, dunque effettuando il limite.
+
+#### Integrazione in senso improprio
+
+Sia $f(x)$ una funzione con una discontinuità illimitata nel punto $x= b$, sapendo che non è integrabile secondo Riemann in $[a,b]$, possiamo dire che è **integrabile in senso improprio** in $[a,b]$ se l'integrale per $[a, b - \epsilon]$, con $\epsilon \to 0^+$ ammette limite finito (limite $\ne +∞, -∞$ e $\nexists$):
+
+$$
+\lim_{\epsilon \to 0^+} \int\limits_{a}^{b - ϵ} f(x) \, dx =
+\lim_{\epsilon \to 0^+} F(x)|_a^{b-\epsilon} = l
+$$
+
+#### Convergenza e divergenza di un integrale
+
+Data una funzione $f(x)$ e un intervallo illimitato (superiormente o lateralmente), si dice che l'integrale improprio di tale funzione è:
+
+- Convergente se:
+
+$$
+\int\limits_{a}^b f(x) < + ∞
+$$
+
+- Divergente se:
+
+$$
+\int\limits_{a}^b f(x) = \pm ∞
+$$
+
+Se l'intervallo è illimitato in più punti è necessario spezzare l'intervallo e studiare il comportamento di ogni sotto-intervallo.
+ 
+#### Criterio del confronto asintotico
+
+Siano $f(x)$ e $g(x)$ due funzioni tali che in $x_0$ ci sia un punto illimitato, se:
+
+$$
+\lim_{x \to x_0} \frac{f(x)}{g(x)} = l \in (0, +∞)
+$$
+
+allora:
+
+$$
+\int\limits_a^{x_0} f(x) \, dx \simeq \int\limits_a^{x_0} g(x) \, dx
+$$
+
+e quindi:
+
+- Se $g(x)$ converge, anche $f(x)$ converge
+- Se $g(x)$ diverge, anche $f(x)$ diverge
+
+#### Criterio del confronto
+
+Siano $f(x)$ e $g(x)$ due funzioni tali che in $x_0$ ci sia un punto illimitato, se:
+
+$$
+0 \leq \int\limits_a^{x_0} f(x) \, dx \leq \int\limits_a^{x_0} g(x) \, dx
+$$
+
+allora:
+
+
+- Se $g(x)$ converge, anche $f(x)$ converge
+- Se $f(x)$ diverge, anche $g(x)$ diverge
+
+#### Criterio della convergenza assoluta
+
+Sia $f(x)$ una funzione che in $x_0$ ci sia un punto illimitato, se:
+
+$$
+\int\limits_a^{x_0} |f(x)| \, dx < +∞
+$$
+
+allora:
+
+$$
+\int\limits_a^{x_0} f(x) \, dx < +∞
+$$
+
+#### Parallelismo con le serie armoniche generalizzate
+
+Proprio come per le serie numeriche, anche per integrali è possibile stabilire la convergenza o divergenza di funzioni del tipo:
+
+$$
+f(x) = \frac{1}{x^\alpha}
+$$
+
+Ne seguono due categorie:
+
+$$
+\lim_{\epsilon \to 0^+} \int\limits_{\epsilon}^{t} \frac{1}{x^\alpha}
+= \begin{cases}
+\frac{t^{1 - \alpha}}{1 - \alpha} && \text{se $\alpha < 1$} \\
++ ∞ && \text{se $\alpha \geq 1$}
+\end{cases}
+$$
+
+$$
+\lim_{\epsilon \to 0^+} \int\limits_{t}^{\epsilon} \frac{1}{x^\alpha}
+= \begin{cases}
+\frac{t^{1 - \alpha}}{1 - \alpha} && \text{se $\alpha > 1$} \\
++ ∞ && \text{se $\alpha \leq 1$}
+\end{cases}
 $$
 
 [Torna su](#Indice)
