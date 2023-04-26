@@ -440,14 +440,25 @@ $$
 
 3. - $F(0) = \int\limits_0^0 f(x) \space dx = 0$
    - $F'(0) = 0 \cdot |0| + sen^3(0) = 0$
-   - $F''(0) = t \cdot (segno)t + 3sen^2(t) \cdot cos(t) \rightarrow t = 0 → 0$
-4. Andando a sostituire $t =1 \rightarrow$ $\int\limits_0^1 [x |x| + sen^3(x)] \space dx$, dunque sappiamo che:
-  
+   - $F''(0)$ = ?  $\rightarrow$ facendo la derivata di $f(x)$:
 $$
-\int\limits_0^1 [x |x| + sen^3(x)] \space dx = \int\limits_0^1 [x^2 + sen^3(x)] \space dx
+ t \cdot (\pm)t + 3sen^2(t) \cdot cos(t)
 $$
 
-e quindi andando a studiare il segno delle due funzioni integrande:
+$$
+t = 0 → 0
+$$
+
+4. Andando a sostituire $t =1$:
+$$
+\int\limits_0^1 [x |x| + sen^3(x)] \space dx
+$$
+  
+$$
+= \int\limits_0^1 [x^2 + sen^3(x)] \space dx
+$$
+
+e quindi studiando il segno delle due funzioni integrande:
 
 - $x^2 \geq 0$
 - $sen^3(x) \geq 0$
