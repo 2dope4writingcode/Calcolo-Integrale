@@ -512,14 +512,14 @@ $f(x) \geq 0$ tra $[0, +∞)$, di conseguenza $F$ è crescente.
 
 ### Integrali impropri
 
-Per alcuni tipi di integrali le cui funzione integrande hanno la presenza di alcuni punti di discontinuità, ossia non sono limitate e continue, non possiamo risolverli secondo Riemann. Tuttavia, possiamo andare a studiare il comportamento di una funzione se ci avviciniamo al punto problematico, dunque effettuando il limite.
+Per alcuni tipi di integrali le cui funzioni integrande hanno la presenza di alcuni punti di discontinuità, ossia non sono limitate e continue, non possiamo risolverli secondo Riemann. Tuttavia, possiamo andare a studiare il comportamento di una funzione se ci avviciniamo al punto problematico, dunque effettuando il limite.
 
 #### Integrazione in senso improprio
 
 Sia $f(x)$ una funzione con una discontinuità illimitata nel punto $x= b$, sapendo che non è integrabile secondo Riemann in $[a,b]$, possiamo dire che è **integrabile in senso improprio** in $[a,b]$ se l'integrale per $[a, b - \epsilon]$, con $\epsilon \to 0^+$ ammette limite finito (limite $\ne +∞, -∞$ e $\nexists$):
 
 $$
-\lim_{\epsilon \to 0^+} \int\limits_{a}^{b - ϵ} f(x) \, dx =
+\lim_{\epsilon \to 0^+} \int\limits_{a}^{b - ϵ} f(x) \space dx =
 \lim_{\epsilon \to 0^+} F(x)|_a^{b-\epsilon} = l
 $$
 
@@ -552,7 +552,7 @@ $$
 allora:
 
 $$
-\int\limits_a^{x_0} f(x) \, dx \simeq \int\limits_a^{x_0} g(x) \, dx
+\int\limits_a^{x_0} f(x) \space dx \simeq \int\limits_a^{x_0} g(x) \space dx
 $$
 
 e quindi:
@@ -565,7 +565,7 @@ e quindi:
 Siano $f(x)$ e $g(x)$ due funzioni tali che in $x_0$ ci sia un punto illimitato, se:
 
 $$
-0 \leq \int\limits_a^{x_0} f(x) \, dx \leq \int\limits_a^{x_0} g(x) \, dx
+0 \leq \int\limits_a^{x_0} f(x) \space dx \leq \int\limits_a^{x_0} g(x) \space dx
 $$
 
 allora:
@@ -579,13 +579,13 @@ allora:
 Sia $f(x)$ una funzione che in $x_0$ ci sia un punto illimitato, se:
 
 $$
-\int\limits_a^{x_0} |f(x)| \, dx < +∞
+\int\limits_a^{x_0} |f(x)| \space dx < +∞
 $$
 
 allora:
 
 $$
-\int\limits_a^{x_0} f(x) \, dx < +∞
+\int\limits_a^{x_0} f(x) \space dx < +∞
 $$
 
 #### Parallelismo con le serie armoniche generalizzate
