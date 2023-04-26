@@ -441,6 +441,7 @@ $$
 3. - $F(0) = \int\limits_0^0 f(x) \space dx = 0$
    - $F'(0) = 0 \cdot |0| + sen^3(0) = 0$
    - $F''(0)$ = ?  $\rightarrow$ facendo la derivata di $f(x)$:
+
 $$
  t \cdot (\pm)t + 3sen^2(t) \cdot cos(t)
 $$
@@ -450,6 +451,7 @@ t = 0 → 0
 $$
 
 4. Andando a sostituire $t =1$:
+
 $$
 \int\limits_0^1 [x |x| + sen^3(x)] \space dx
 $$
@@ -505,8 +507,8 @@ $$
 \rightarrow t^2 + sen^3(t) \geq t^2 - 1
 $$
 
-e sappiamo che $t \geq 1$ e che tra $[0, 1]$ $F \geq 0$, dunque $f(x) 
-\geq 0 \rightarrow$ tra $[0, +∞)$ $F$ è crescente.
+e sappiamo che $t \geq 1$ e che tra $[0, 1]$ $F \geq 0$, dunque
+$f(x) \geq 0$ tra $[0, +∞)$, di conseguenza $F$ è crescente.
 
 ### Integrali impropri
 
@@ -599,7 +601,7 @@ Ne seguono due categorie:
 $$
 \lim_{\epsilon \to 0^+} \int\limits_{\epsilon}^{t} \frac{1}{x^\alpha}
 = \begin{cases}
-\frac{t^{1 - \alpha}}{1 - \alpha} && \text{se $\alpha < 1$} \\
+\frac{t^{1 - \alpha}}{1 - \alpha} && \text{se $\alpha < 1$}\\
 + ∞ && \text{se $\alpha \geq 1$}
 \end{cases}
 $$
@@ -607,7 +609,7 @@ $$
 $$
 \lim_{\epsilon \to 0^+} \int\limits_{t}^{\epsilon} \frac{1}{x^\alpha}
 = \begin{cases}
-\frac{t^{1 - \alpha}}{1 - \alpha} && \text{se $\alpha > 1$} \\
+\frac{t^{1 - \alpha}}{1 - \alpha} && \text{se $\alpha > 1$}\\
 + ∞ && \text{se $\alpha \leq 1$}
 \end{cases}
 $$
