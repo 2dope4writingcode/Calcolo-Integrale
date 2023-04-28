@@ -23,15 +23,15 @@ secondo Riemann se $\overline{S} = \underline{S}$ dove:
 - Il limite per $n \to \infty$ della somma $\underline{S_{n}}$:
 
 $$
-\lim_{n \to \infty} \frac{b-a}{2^{n}} \cdot \sum_{k=0}^{2^{n} - 1} 
-min_{[x_{k}, x_{k+1}]} f(x) = \underline{S} 
+\lim_{n \to \infty} \frac{b-a}{2^{n}} \cdot \sum_{k=0}^{2^{n} - 1}
+min_{[x_{k}, x_{k+1}]} f(x) = \underline{S}
 $$
- 
+
 - Il limite per $n \to \infty$ della somma $\overline{S_{n}}$:
 
 $$
-\lim_{n \to \infty} \frac{b-a}{2^{n}} \cdot \sum_{k=0}^{2^{n} - 1} 
-max{[x_{k}, x_{k+1}]} f(x) = \overline{S} 
+\lim_{n \to \infty} \frac{b-a}{2^{n}} \cdot \sum_{k=0}^{2^{n} - 1}
+max{[x_{k}, x_{k+1}]} f(x) = \overline{S}
 $$
 
 **L'integrale definito** nell'intervallo $[a,b]$ di $f(x)$ viene
@@ -46,7 +46,7 @@ $$
 Se $f: [a,b] \to R$ è continua e se definiamo
 
 $$
-F(t) = \int\limits_{a}^{t} f(x) \space dx \space \, \forall t \in [a,b] 
+F(t) = \int\limits_{a}^{t} f(x) \space dx \space \, \forall t \in [a,b]
 $$
 
 allora:
@@ -86,7 +86,7 @@ Di seguito due tabelle che elencano le principali derivate immediate e i corrisp
 <summary>Derivate immediate</summary>
 <center>
 
-| $f(x)$ | $f'(x)$ | 
+| $f(x)$ | $f'(x)$ |
 | :----: | :----:  |
 | $x^{\alpha}$ | $\alpha x^{\alpha -1}$ |
 | $sin(x)$ | $cos(x)$ |
@@ -104,7 +104,7 @@ Di seguito due tabelle che elencano le principali derivate immediate e i corrisp
 <summary>Integrali immediati</summary>
 <center>
 
-| $f(x)$ | $f'(x)$ | 
+| $f(x)$ | $f'(x)$ |
 | :----: | :----:  |
 | $x^{\alpha}$ | $\frac{x^{\alpha +1}}{\alpha + 1} + c$ |
 | $sin(x)$ | $-cos(x) + c$ |
@@ -166,7 +166,7 @@ Se il prodotto tra funzioni $f'(x) \cdot g(x)$ è integrabile, allora
 l'integrale si può risolvere cona la seguente formula:
 
 $$
-\int f'(x) \cdot g(x) 
+\int f'(x) \cdot g(x)
 $$
 
 $$
@@ -188,10 +188,10 @@ da integrare:
 dunque andando ad applicare la formula dell'integrazione per parti avremo:
 
 $$
-\int x^3 e^x \space dx = x^3e^x - \int 3x^2 e^x \space dx 
+\int x^3 e^x \space dx = x^3e^x - \int 3x^2 e^x \space dx
 $$
 
-non potendo ancora ricondurci ad un integrale immediato, riapplichiamo 
+non potendo ancora ricondurci ad un integrale immediato, riapplichiamo
 l'integrazione per parti all'integrale ottenuto:
 
 - $f'(x) = e^x \implies f(x) = e^x$
@@ -211,7 +211,7 @@ applicandola un'ultima volta avremo:
 - $g(x) = 6x \implies 6$
 
 $$
-\int x^3 e^x \space dx 
+\int x^3 e^x \space dx
 $$
 
 $$
@@ -229,14 +229,14 @@ $$
 
 ### Cosa integrare e cosa derivare?
 
-Per quanto riguarda gli integrali del tipo: $\int P(x) \cdot f(x)$ dove 
+Per quanto riguarda gli integrali del tipo: $\int P(x) \cdot f(x)$ dove
 $P(x)$ rappresenta un polinomio generico, di seguito è rappresentato uno schema:
 
 $$
 \circ \space \int P(x) \cdot \begin{cases}
 e^{kx} \\
 cos(kx) \\
-sen(kx) 
+sen(kx)
 \end{cases} \space dx \\
 $$
 
@@ -276,7 +276,7 @@ dove l'esponente $k$ può essere pari o dispari si procede nel seguente modo:
 
 ### Integrazione di funzioni razionali
 
-Nei casi in cui viene richiesto di integrare il **rapporto tra due 
+Nei casi in cui viene richiesto di integrare il **rapporto tra due
 polinomi**, della seguente forma:
 
 $$
@@ -372,13 +372,13 @@ $$
 \int \frac{1}{x^2 + \alpha(x) + \beta} \space dx
 $$
 
-$$ 
-= \frac{2}{\sqrt{- \Delta}} \cdot arctan \Big( \frac{2x + \beta}{\sqrt{- \Delta}} \Big) + c
+$$
+= \frac{2}{\sqrt{- \Delta}} \cdot arctan \Big( \frac{2x + \alpha}{\sqrt{- \Delta}} \Big) + c
 $$
 
 - **Caso 4** $\rightarrow$ Se $P(x)$ è un polinomio di grado **maggiore di 2**, allora si dovrà effettura una divisione tra polinomi, così da abbassare il grado di $P(x)$ e poter rientrare in uno dei casi elencati precedentemente.
 
-Sapendo che $P(x) = S(x) \cdot Q(x) + R(x)$, dove $S(x)$ è il risultato 
+Sapendo che $P(x) = S(x) \cdot Q(x) + R(x)$, dove $S(x)$ è il risultato
 della divisione $\frac{P(x)}{Q(x)}$ e $R(x)$ il suo resto, allora l'integrale può essere risolto nel seguento modo:
 
 $$
@@ -408,7 +408,7 @@ $$
 \int\limits_{-t}^{t} f(x) \space dx = 0
 $$
 
-- Se $f(x)$ è dispari:
+- Se $f(x)$ è pari:
 
 $$
 \int\limits_{-t}^{t} f(x) \space dx = 2 \int\limits_{0}^t f(x) \space dx
@@ -455,7 +455,7 @@ $$
 $$
 \int\limits_0^1 [x |x| + sen^3(x)] \space dx
 $$
-  
+
 $$
 = \int\limits_0^1 [x^2 + sen^3(x)] \space dx
 $$
@@ -468,7 +468,7 @@ e quindi studiando il segno delle due funzioni integrande:
 possiamo concludere che l'integrale, avendo i limiti d'integrazione orientati nel verso giusto, è positivo.
 
 5. Possiamo ricondurci al teorema sull'integrazione delle funzioni pari o dispari in quanto l'integrale è su $[0, t]$, quindi:
-  
+
 $$
 f(x) = x|x| + sen^3(x)
 $$
@@ -540,7 +540,7 @@ $$
 $$
 
 Se l'intervallo è illimitato in più punti è necessario spezzare l'intervallo e studiare il comportamento di ogni sotto-intervallo.
- 
+
 #### Criterio del confronto asintotico
 
 Siano $f(x)$ e $g(x)$ due funzioni tali che in $x_0$ ci sia un punto illimitato, se:
