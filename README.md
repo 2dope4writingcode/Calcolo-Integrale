@@ -7,4 +7,5 @@ Facoltà d'Informatica (La Sapienza di Roma)
 
 - [Serie numeriche](serie_numeriche.md)
 - [Integrali](integrali.md)
+- [Equazioni differenziali](eq_differenziali.md)
 
