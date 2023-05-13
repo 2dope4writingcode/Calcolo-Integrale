@@ -6,6 +6,7 @@
 - [Problema di Cauchy](#Problema-di-Cauchy)
 - [EDO lineare omogenea](#Edo-lineare-omogenea)
 - [Problema di Cauchy di EDO lineare non omogenea](#Problema-di-Cauchy-di-EDO-lineare-non-omogenea)
+- [Equazioni a variabili separabili](#Equazioni-a-variabili-separabili)
 
 ### Equazione differenziale ordinaria
 
