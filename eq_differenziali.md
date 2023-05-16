@@ -7,6 +7,7 @@
 - [EDO lineare omogenea](#Edo-lineare-omogenea)
 - [Problema di Cauchy di EDO lineare non omogenea](#Problema-di-Cauchy-di-EDO-lineare-non-omogenea)
 - [Equazioni a variabili separabili](#Equazioni-a-variabili-separabili)
+- [EDO lineari non omogenee del secondo ordine](#EDO-lineari-non-omogenee-del-secondo-ordine)
 
 ### Equazione differenziale ordinaria
 
@@ -146,8 +147,94 @@ $$
 
 che è la soluzione del Problema di Cauchy di un EDO a variabili separabili.
 
-### EDO lineari del secondo ordine
+### EDO lineari non omogenee del secondo ordine
 
-TODO
+Come dice il nome, sono equazioni dfferenziali ordinare di ordine due, dove quindi compare la derivata seconda della funzione incognita. Il Problema di Cauchy associato si presenta nella forma:
 
+$$
+\begin{cases}
+y''(t) + Ay'(t) + By(t) = g(t) \\
+y'(t_0) = y_0 \\
+y(t_0) = y_1
+\end{cases}
+$$
+
+Le soluzioni dell'EDO sono infinite e dipendenti da 2 parametri. Esse sono date da:
+
+$$
+y(t) = y_0(t) + \bar y(t)
+$$
+
+dove $y_0(t)$ è la soluzione dell'EDO omogenea associata e $\bar y(t)$ la soluzione particolare.
+
+#### Risoluzione EDO lineare omogenea associata
+
+Come prima cosa per risolvere un'EDO lineare non omogenea del secondo ordine, bisogna passare all'EDO omogenea associata che si presenta come segue:
+
+$$
+y''_0 + Ay'_0 + By_0 = 0
+$$
+
+per poi riscriversi il Polinomio Caratteristico associato all'EDO del secondo ordine:
+
+$$
+\lambda ^2 + A \lambda + B \lambda = 0
+$$
+
+Naturalmente essendo un polinomio di secondo grado, possiamo cadere in uno dei seguenti 3 casi:
+
+- **Caso 1** → ( $\lambda _1 \neq \lambda _2$ ) Tutte le soluzioni sono date da:
+$$
+y_0(t) = Ce^{\lambda _1 t} + De^{\lambda _2 t}
+$$
+
+- **Caso 2** → ( $\lambda _1 = \lambda _2$ ) Tutte le soluzioni sono date da:
+
+$$
+y_0(t) = (C + Dt) \space e^{\lambda _1 t}
+$$
+ 
+- **Caso 3** →  ( $\lambda _{1,2} = \alpha \pm i \beta$ ) Tutte le soluzioni  sono date da:
+
+$$
+y_0(t) = e^{\alpha t} \left[ C \cdot cos(\beta t) + D \cdot sen(\beta t)\right]
+$$
+
+Se l'EDO di partenza è lineare ed omogenea, allora nel caso di un Problema di Cauchy, bisogna derivare $y_0(t)$ e poi andare ad assegnare le condizioni iniziali per risolvere il sistema a due incognite $C$ e $D$, che daranno la soluzione definitiva al PDC.
+
+#### Trovare la soluzione particolare
+
+Nel caso si trattasse di un Problema di Cauchy con un'EDO lineare non omogenea, allora dobbiamo trovare la soluzione particolare $\bar y(t)$. In base a come si presenta la funzione a destra dell'uguale, cioè $g(t)$, la soluzione da cercare sarà dello stesso tipo e cambierà in base ad uno dei seguenti casi:
+
+- **Se $g(t)$ è un polinomio** si dovrà cercare una soluzione del tipo:
+
+$$
+\bar y(t) = Qt + R
+$$
+
+per poi andare a fare le derivate di $\bar y(t)$ e andare a sostituire i corrispettivi valori all'interno dell'EDO iniziale così da determinare i valori di $Q$ ed $R$ tramite un sistema.
+
+- **Se $g(t)$ è un esponenziale** si dovrà cercare una soluzione del tipo:
+
+$$
+\bar y(t) = Qe^{t}
+$$
+
+e avendo calcolato precedentemente il Polinomio Caratteristico, la soluzione particolare sarà data da:
+
+$$
+\bar y(t) = Q \cdot P(\alpha) \space e^{\alpha  t}
+$$
+
+- **Se $g(t)$ è trigonometrica** si dovrà cercare una soluzione del tipo:
+
+$$
+\bar y(t) = Q \cdot cos(t) + R \cdot sen(t)
+$$
+
+dunque calcolando le derivate e sostituendo all'interno dell'EDO troveremo un sistema in $Q$ ed $R$ da determinare.
+
+**Osservazione**. Naturalmente ognuno di questi 3 casi è valido solo se la soluzione particolare è diversa dalla soluzione dell'EDO associata. Nel caso non lo fosse allora è necessario trovarla in una delle forme precedenti ma moltiplicandola per $t$.
+
+[Torna su](#Indice)
 
