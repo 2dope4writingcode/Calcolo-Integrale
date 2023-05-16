@@ -184,6 +184,7 @@ $$
 Naturalmente essendo un polinomio di secondo grado, possiamo cadere in uno dei seguenti 3 casi:
 
 - **Caso 1** → ( $\lambda _1 \neq \lambda _2$ ) Tutte le soluzioni sono date da:
+
 $$
 y_0(t) = Ce^{\lambda _1 t} + De^{\lambda _2 t}
 $$
