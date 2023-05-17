@@ -178,7 +178,7 @@ $$
 per poi riscriversi il Polinomio Caratteristico associato all'EDO del secondo ordine:
 
 $$
-\lambda ^2 + A \lambda + B \lambda = 0
+\lambda ^2 + A \lambda + B  = 0
 $$
 
 Naturalmente essendo un polinomio di secondo grado, possiamo cadere in uno dei seguenti 3 casi:
